@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style/login.css">
+
+    <!-- alertas -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Fuentes de la letras -->
+    <script src="https://kit.fontawesome.com/c3333d0f26.js" crossorigin="anonymous"></script>
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore-compat.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <a id="logo-header" href="https://www.udistrital.edu.co/inicio">
+                <img src="/img/logo.png" alt="Logo Universidad" width="300" height="auto">
+            </a>
+        </div>
+        <div class="titulo">
+            <h1>Resolución 773 de la ANE</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="contenedor">
+            <div class="formulario">
+                <form>
+                    <h2>Iniciar Sesión</h2>
+
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        <input id="correo" type="email" required="">
+                        <label for="#">correo</label>
+                    </div>
+
+                </form>
+
+                <div>
+                    <!-- Añade un ID al botón para identificarlo fácilmente -->
+                    <button id="loginButton">Acceder</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/miniLogin.js"></script>
+</body>
+
+</html>
