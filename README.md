@@ -6,7 +6,8 @@ Pasos para ejecutar el proyecto:
 3. Correr el servidor con el comando ```npm start```
 4. Abrir el proyecto en la direccion mencionada en la ventana de comandos
 5. Registrese y podra hacer las validaciones que necesita para ver si cumple con la normatividad
-![image](https://github.com/Duvan2662/Resolucion773/assets/116412165/520b6165-6d4e-4488-b2ce-8664e14bddfb)
+
+![346662483-520b6165-6d4e-4488-b2ce-8664e14bddfb](https://github.com/Duvan2662/Resolucion773/assets/116412165/e3282384-15da-47f7-9d5c-6d7065b08ac7)
 
 
 
